@@ -1,0 +1,60 @@
+*{
+font-size: 13px;
+font-family: Arial;
+border-style: solid;
+}
+.core {
+text-align: center;
+padding: 9% 0;
+
+}
+img,input, p{
+margin: 15px 0;
+}
+input {
+border-radius: 0;
+padding: 11px 21px;
+border-width: 0;
+}
+input[type=text]{
+padding: 13px 200px;
+box-shadow: 0px 1px 2px 1px rgba(50, 50, 50, 0.2);
+}
+input[type=submit]{
+color: rgb(140,140,140);
+font-weight: 700;
+}
+p{
+
+word-spacing: 3px;
+}
+
+div.navbar {
+
+height: 100px;
+  line-height: 100px;
+  text-align: right;
+}
+.navbartextitem
+{
+  position: relative;
+  top: -10%;
+}
+
+.navbaritem
+{
+  position: relative;
+  top: 12%;
+  width: 20px;
+  height: 20px;
+
+}
+
+#user_account
+{
+  position: relative;
+  top: 15%;
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+}
