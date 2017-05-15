@@ -1,13 +1,19 @@
 *{
 font-size: 13px;
 font-family: Arial;
+text-decoration: none;
 }
+body {
+	padding: 0;
+	margin: 0;
+}
+
 .core {
 text-align: center;
 padding: 9% 0;
 
 }
-img,input, p{
+.core img,input, p{
 margin: 15px 0;
 }
 input {
@@ -29,31 +35,73 @@ word-spacing: 3px;
 }
 
 div.navbar {
+  position: fixed;
+  display: block;
+  right: 20px;
 
-  height: 30px;
-  line-height: 30px;
-  text-align: right;
 }
-.navbartextitem
-{
-  position: relative;
-  top: -10%;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
+
+.navbar li{
+  display: inline;
+  float: right;
+  vertical-align: center;
+  }
 
 .navbaritem
 {
-  position: relative;
-  top: 12%;
+display: block;
+margin: 16px 7px;
+
+}
+#images, #Gmail
+{
+  display: block;
+  margin: 24px 7px;
+}
+.icon
+{
+
+  padding: 5px;
   width: 20px;
   height: 20px;
-
 }
 
 #user_account
 {
-  position: relative;
-  top: 15%;
+  margin: 11px 7px;
   width: 36px;
   height: 36px;
   border-radius: 18px;
+}
+.footer
+{
+  background-color: rgb(230,230, 230);
+  display:block;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer_left li
+{
+  display: inline;
+	float: left;
+	vertical-align: center;
+}
+.footer_right li
+{
+  display: inline;
+	float: right;
+	vertical-align: center;
+}
+
+div.footer li
+{
+  margin: 13px 18px;
+
 }
